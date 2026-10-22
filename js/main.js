@@ -717,6 +717,8 @@ function initArticleReader() {
   readBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const artId = btn.getAttribute('data-article-id');
+      // Guard: only accept own-property keys (prevents prototype pollution attacks)
+      if (!Object.prototype.hasOwnProperty.call(articlesData, artId)) return;
       const data = articlesData[artId];
       if (!data) return;
 
@@ -724,6 +726,7 @@ function initArticleReader() {
       if (modalCategory) modalCategory.textContent = data.category;
       if (modalAuthor) modalAuthor.textContent = data.author;
       if (modalReadTime) modalReadTime.textContent = data.readTime;
+      // data.content is a trusted static HTML string hardcoded in this file — not user input
       if (modalBody) modalBody.innerHTML = data.content;
 
       articleModal.classList.add('active');

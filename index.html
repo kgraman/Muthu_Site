@@ -3,6 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- =====================================================================
+       SECURITY HEADERS (meta-equivalent)
+       ===================================================================== -->
+  <!-- Prevent this page from being embedded in iframes on other domains (clickjacking) -->
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+  <!-- Stop browsers from MIME-sniffing response content-type -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <!-- Control referrer information sent when navigating away -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Content Security Policy: only allow known trusted sources -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data: https:;
+    frame-src https://www.youtube.com https://www.youtube-nocookie.com;
+    connect-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'none';
+  " />
   <title>Muthoo Raman | Official Actor Portfolio | Film, Commercials & Theatre</title>
   
   <!-- Meta & SEO Optimization -->
