@@ -20,7 +20,7 @@ Designed for international casting directors, talent agents, brand commercial pr
   - Languages: English (Fluent), Hindi (Fluent), Tamil (Native/Fluent), Telugu, Kannada
   - Special Skills: Screen Combat & Stunt Certified (Jay Naygee Stunts), Boxing, Acoustic Guitarist
   - Base: Dubai, UAE (Valid Passport & Worldwide Travel Ready)
-- **Featured Film & Television Spotlight**: Paramount's *Jack Ryan: Ghost Wars*, *The Final Race* (Hindi OTT Series), Legendary's *Dune: Messiah*, Warner Bros.' *F1*, and Lionsgate's *Now You See Me 3*.
+- **Featured Film & Television Spotlight**: Paramount's *Jack Ryan: Ghost Wars*, *The Final Race* (Hindi OTT Series), Warner Bros.' *F1*, and Lionsgate's *Now You See Me 3*.
 - **Commercials & Advertising Showcase**: Hero banner for *Americana Foods* (Father - Main Lead TVC), *Ikea UAE* (Father), *Noon Promo Campaign* (Bouncer), *Tasva Fashion* (Featured Model), and *City Centre Dubai* (Taxi Driver).
 - **Theatre & Festival Short Films**: *This is Not A Tango* (Lead at The Junction Xfest 2026), *Gina Goes Down* & *The Wedding Table* (Lead at Short+Sweet 2026), and SAE Institute / NYU Abu Dhabi shorts (*HVAC*, *Shortcut*, *Beneath The Skin*).
 - **Filterable Master Filmography Database**: Searchable credits table with instant filtering by Category (Film & TV, Commercials, Theatre, Short Films).
@@ -35,7 +35,7 @@ Designed for international casting directors, talent agents, brand commercial pr
   - **UAE Stories**: *"[Muthoo Raman Proves It Is Never Too Late to Chase Dreams](https://uaestories.com/muthoo-raman-proves-it-is-never-too-late/)"* by Jasmeet Singh (Sep 9, 2026).
   - **Gulf News**: *"[Look: Musicians out of the dark in UAE](https://gulfnews.com/photos/lifestyle-photos/look-musicians-out-of-the-dark-in-uae-1.1606293920116)"* (AFP Photography / Dona Cherian).
   - Interactive Article Reader Modal + Direct Live External Links.
-- **Featured Film & Television Spotlight**: Upcoming Lead in *The Man Who Counted the Stars* (tri-lingual feature directed by Francis L J Gacer), *Jack Ryan: Ghost Wars* (Paramount), *HVAC* (Malayalam feature directed by Vijay Basco), *The Final Race* (Hindi OTT Series), *Dara* (Arabic TV series), Legendary's *Dune: Messiah*, Warner Bros.' *F1*, and Lionsgate's *Now You See Me 3*.
+- **Featured Film & Television Spotlight**: Upcoming Lead in *The Man Who Counted the Stars* (tri-lingual feature directed by Francis L J Gacer), *Jack Ryan: Ghost Wars* (Paramount), *HVAC* (Malayalam feature directed by Vijay Basco), *The Final Race* (Hindi OTT Series), *Dara* (Arabic TV series), Warner Bros.' *F1*, and Lionsgate's *Now You See Me 3*.
 - **Training & Masterclasses**: Chronological timeline of training with Jay Naygee Stunts, Miranda Davidson Studio, Mukesh Chhabra Casting Studio, Alex Broun Company, NYU Abu Dhabi, and Courtyard Playhouse.
 - **Printable Casting Comp Card / One-Sheet**:
   - Digital preview of standard 3-headshot casting card
