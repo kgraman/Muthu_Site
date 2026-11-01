@@ -179,24 +179,24 @@ function initCreditsFilter() {
 const galleryData = [
   {
     id: 1,
+    src: 'assets/gallery_4.jpg',
+    category: 'dramatic',
+    title: 'Red Carpet — Emirates Film Festival',
+    desc: 'On the red carpet at the 12th Edition Emirates Film Festival, Mall of the Emirates, Dubai.'
+  },
+  {
+    id: 2,
     src: 'assets/photo_1.jpg',
     category: 'dramatic',
     title: 'Cinematic Theatrical Portrait',
     desc: 'Navy tailored blazer, intense introspective focus. Ideal for executive, syndicate, or diplomatic leads.'
   },
   {
-    id: 2,
-    src: 'assets/photo_1_headshot.jpg',
+    id: 19,
+    src: 'assets/shared_sky_poster.jpg',
     category: 'dramatic',
-    title: 'Dramatic Tight Headshot',
-    desc: 'Direct camera gaze, sharp salt & pepper grooming, strong facial structure.'
-  },
-  {
-    id: 3,
-    src: 'assets/photo_1_bw.jpg',
-    category: 'bw',
-    title: 'Black & White Theatrical Cast Card',
-    desc: 'High-contrast monochrome treatment highlighting texture and cinematic intensity.'
+    title: 'Shared Sky — Official Movie Poster',
+    desc: 'Official poster for "Shared Sky" (Kikoman Films), written & directed by Francis L.J. Gacer, starring Pamela Villadiego and Muthu Raman.'
   },
   {
     id: 4,
@@ -207,31 +207,159 @@ const galleryData = [
   },
   {
     id: 5,
-    src: 'assets/photo_2_headshot.jpg',
-    category: 'corporate',
-    title: 'Commercial Executive Headshot',
-    desc: 'Charismatic, trustworthy persona suited for high-profile commercials and corporate dramas.'
-  },
-  {
-    id: 6,
     src: 'assets/photo_3.jpg',
     category: 'casual',
     title: 'Casual & Contemporary Lifestyle',
     desc: 'Athletic white tee and casual denim. Approachable, grounded modern male character.'
   },
   {
+    id: 6,
+    src: 'assets/headshot_new_1.jpg',
+    category: 'headshot',
+    title: 'Studio Headshot — Primary',
+    desc: 'Clean studio headshot with strong facial definition. Suitable for cinematic and dramatic character castings.'
+  },
+  {
     id: 7,
-    src: 'assets/photo_3_headshot.jpg',
-    category: 'casual',
-    title: 'Natural Screen Headshot',
-    desc: 'Approachable, warm smile. Excellent for everyday protagonist, father, or modern storyteller.'
+    src: 'assets/headshot_new_2.jpg',
+    category: 'headshot',
+    title: 'Studio Headshot — Character',
+    desc: 'Expressive close-up portrait capturing emotional depth and screen presence.'
   },
   {
     id: 8,
-    src: 'assets/photo_1_headshot_bw.jpg',
+    src: 'assets/headshot_new_3.jpg',
+    category: 'headshot',
+    title: 'Contemporary Headshot',
+    desc: 'Modern, natural headshot ideal for commercial, lifestyle, and contemporary lead roles.'
+  },
+  {
+    id: 9,
+    src: 'assets/gallery_1.jpg',
+    category: 'headshot',
+    title: 'Studio Portrait — Warm Smile',
+    desc: 'Smiling studio close-up in navy blazer. Approachable and charismatic — ideal for commercial and lifestyle castings.'
+  },
+  {
+    id: 10,
+    src: 'assets/gallery_2.jpg',
+    category: 'casual',
+    title: 'Casual Character — Blue Check',
+    desc: 'Relaxed full-body shot in blue plaid shirt. Grounded, confident energy for contemporary screen roles.'
+  },
+  {
+    id: 11,
+    src: 'assets/gallery_3.jpg',
+    category: 'dramatic',
+    title: 'Cinematic Full-Body — Navy Suit',
+    desc: 'Intense standing pose in navy suit. Commanding screen presence ideal for dramatic leads and authority figures.'
+  },
+  {
+    id: 12,
+    src: 'assets/gallery_5.jpg',
+    category: 'dramatic',
+    title: 'In Character — Officer Uniform',
+    desc: 'In-character naval officer role. Disciplined posture and authentic uniform look for authority and military castings.'
+  },
+  {
+    id: 13,
+    src: 'assets/gallery_6.jpg',
+    category: 'casual',
+    title: 'Traditional Lifestyle — Sherwani',
+    desc: 'Elegant traditional sherwani with sunglasses at an outdoor fountain. Versatile ethnic and lifestyle look.'
+  },
+  {
+    id: 14,
+    src: 'assets/gallery_7.jpg',
+    category: 'casual',
+    title: 'Outdoor Close-Up — Embroidered Jacket',
+    desc: 'Intense close-up with sunglasses and embroidered jacket. Strong screen presence for international dramatic roles.'
+  },
+  {
+    id: 15,
+    src: 'assets/gallery_8.jpg',
+    category: 'casual',
+    title: 'Location Portrait — All Black',
+    desc: 'Full black outfit at an outdoor heritage location. Urban and contemporary character look.'
+  },
+  {
+    id: 16,
+    src: 'assets/gallery_9.jpg',
+    category: 'dramatic',
+    title: 'Formal Intensity — Suit & Tie',
+    desc: 'Intense close-up in formal suit and tie. Perfect for high-stakes corporate, legal, and dramatic character roles.'
+  },
+  {
+    id: 17,
+    src: 'assets/gallery_10.jpg',
+    category: 'corporate',
+    title: 'Professional Full-Body — Navy Suit',
+    desc: 'Clean full-body shot in navy check suit against white background. Industry-standard corporate and commercial profile.'
+  },
+  {
+    id: 18,
+    src: 'assets/gallery_11.jpg',
+    category: 'casual',
+    title: 'Energy & Character — Action Pose',
+    desc: 'High-energy studio shot with expressive physicality. Excellent for action, sport, and dynamic commercial castings.'
+  },
+
+  // — Task4 Theatre & Magazine Features —
+  {
+    id: 20,
+    src: 'assets/theatre_this_is_not_a_tango_poster.jpg',
+    category: 'dramatic',
+    title: 'This is not a Tango — Official Theatre Poster',
+    desc: 'Official headline poster for "This is not a Tango" at The Junction (Alserkal Avenue) for Xfest DXB, directed by Shamrock Nevis and starring Muthoo Raman & Natalia Vyugova.'
+  },
+  {
+    id: 21,
+    src: 'assets/theatre_gina_goes_down_poster.jpg',
+    category: 'dramatic',
+    title: 'Gina Goes Down — Official Theatre Poster',
+    desc: 'Official poster for "Gina Goes Down" by Alex Broun at The New Covent Garden, Dubai. Muthoo Raman stars playing four distinct characters: Peter, Mark, Barry, and Glen.'
+  },
+  {
+    id: 22,
+    src: 'assets/theatre_wedding_table_poster.jpg',
+    category: 'dramatic',
+    title: 'The Wedding Table — Short+Sweet Festival Poster',
+    desc: 'Official Short+Sweet Festival poster for "The Wedding Table" at New Covent Garden Theatre MOE Dubai, written & directed by Thandolwethu Ntshebe.'
+  },
+  {
+    id: 23,
+    src: 'assets/theatre_desert_monologues_stage.jpg',
+    category: 'dramatic',
+    title: 'Desert Monologues — Courtyard Playhouse Stage',
+    desc: 'Muthoo Raman performing solo live dramatic monologue under the spotlight at The Courtyard Playhouse Theatre Academy, Dubai.'
+  },
+  {
+    id: 24,
+    src: 'assets/theatre_dune_rush_cover.jpg',
+    category: 'dramatic',
+    title: 'Dune Rush Studio Magazine — Cover Story',
+    desc: 'Cover feature for Dune Rush Studio Digital Issue 01 (July 2026): "No Turning Back: From a stable career to the world of acting, Muthoo Raman shares the journey that changed everything."'
+  },
+  {
+    id: 25,
+    src: 'assets/theatre_dune_rush_spread.jpg',
+    category: 'dramatic',
+    title: 'Dune Rush Studio Magazine — Editorial Feature',
+    desc: '"Dreams don\'t disappear. Talent opens doors, but purpose is what keeps you walking through them." — Dune Rush Studio Issue 01.'
+  },
+  {
+    id: 26,
+    src: 'assets/theatre_dune_rush_profile.jpg',
+    category: 'dramatic',
+    title: 'Who is Muthoo Raman? — Actor Profile',
+    desc: '"Bold. Strong. Authentic." — Profile feature on Muthoo Raman\'s training, Hollywood productions, commercials, and stage craft.'
+  },
+  {
+    id: 3,
+    src: 'assets/photo_1_bw.jpg',
     category: 'bw',
-    title: 'Monochrome Close-up Study',
-    desc: 'Classic Hollywood studio lighting study for festival and indie feature castings.'
+    title: 'Black & White Theatrical Cast Card',
+    desc: 'High-contrast monochrome treatment highlighting texture and cinematic intensity.'
   }
 ];
 
@@ -584,6 +712,46 @@ function initAudioSampler() {
    6. ARTICLE & PRESS READER MODAL
    ========================================================================== */
 const articlesData = {
+  gulfPrime: {
+    title: 'Muthoo Raman: From Corporate Success to Pursuing His Hollywood Dreams',
+    category: 'Featured Press Story • Gulf Prime Magazine',
+    author: 'By Nazma Khan • Gulf Prime Magazine (October 2026)',
+    readTime: '5 min read',
+    sourceUrl: 'https://www.gulfprimemagazine.com/muthoo-raman-dubai-actor-hollywood/',
+    content: `
+      <p class="lead" style="font-size:1.15rem; color:var(--gold-light); margin-bottom:1.5rem; font-style:italic;">
+        "It takes extraordinary courage to step away from a successful 17-year corporate leadership career at the age of 40 to chase a childhood dream. For Dubai-based actor Muthoo Raman, that leap of faith opened doors to Hollywood productions, premier theatre stages, and leading roles."
+      </p>
+
+      <div style="background:rgba(212,175,55,0.08); border-left:4px solid var(--gold-primary); padding:1rem 1.25rem; margin-bottom:1.5rem; border-radius:0 8px 8px 0;">
+        <strong>Published by Gulf Prime Magazine:</strong> <a href="https://www.gulfprimemagazine.com/muthoo-raman-dubai-actor-hollywood/" target="_blank" rel="noopener noreferrer" style="color:var(--gold-primary); text-decoration:underline;">Read original article on Gulf Prime Magazine ↗</a>
+      </div>
+
+      <h3 style="font-family:var(--font-serif); font-size:1.3rem; color:#fff; margin-bottom:0.75rem;">From Corporate Boardrooms to Hollywood Blockbusters</h3>
+      <p style="margin-bottom:1.25rem;">
+        Originally from Tamil Nadu, India, Muthoo Raman relocated to Dubai at the age of 23. Over the next seventeen years, he forged a respected career across the paint, chemicals, and construction sectors, holding senior positions at market-leading organizations including Jotun Paints and Laticrete Middle East.
+      </p>
+      <p style="margin-bottom:1.25rem;">
+        Yet beneath his corporate achievements, a lifelong passion for performance and cinema remained alive. At 40, without prior industry connections, Muthoo decided to formalize his training, registering with premier casting agencies and immersing himself in screen acting, physical theatre, and voice coaching.
+      </p>
+
+      <h3 style="font-family:var(--font-serif); font-size:1.3rem; color:#fff; margin-bottom:0.75rem;">Commanding Screen Presence & Versatility</h3>
+      <p style="margin-bottom:1.25rem;">
+        What followed was a rapid, inspiring ascent. Casting directors quickly recognized his commanding physical posture, authentic emotional depth, and salt-and-pepper gravitas—making him a natural fit for authority figures, corporate executives, and loving patriarchs alike.
+      </p>
+      <blockquote style="border-left:3px solid var(--gold-primary); padding-left:1.25rem; margin:1.5rem 0; font-family:var(--font-serif); font-size:1.15rem; color:#fff;">
+        "Talent opens doors, but discipline, emotional intelligence, and relentless preparation are what keep you inside the room. My seventeen years of corporate negotiation and leadership gave me the psychological grounding to step onto major film sets with poise."
+      </blockquote>
+
+      <h3 style="font-family:var(--font-serif); font-size:1.3rem; color:#fff; margin-bottom:0.75rem;">International Credits & Future Horizons</h3>
+      <p style="margin-bottom:1.25rem;">
+        Today, Muthoo's filmography spans Hollywood studio productions including Paramount Pictures' <em>Jack Ryan: Ghost Wars</em>, Warner Bros.' <em>F1</em>, and Lionsgate's <em>Now You See Me 3</em>, as well as lead commercial campaigns for Americana Foods and Ikea UAE.
+      </p>
+      <p style="margin-bottom:1.25rem;">
+        With major upcoming releases including the tri-language feature <em>The Man Who Counted the Stars</em> and Francis L.J. Gacer's <em>Shared Sky</em>, Muthoo Raman stands as living proof that passion has no expiration date.
+      </p>
+    `
+  },
   uaeStories: {
     title: 'Muthoo Raman Proves It Is Never Too Late to Chase Dreams',
     category: 'Featured Press Story • UAE Stories',
@@ -697,6 +865,37 @@ const articlesData = {
       </p>
       <p>
         Combined with his background in boxing and fitness, this physical training allows Muthoo to seamlessly transition from boardrooms and dramatic sets to demanding tactical sequences, SWAT roles, and dynamic action choreography.
+      </p>
+    `
+  },
+  duneRush: {
+    title: 'Dune Rush Studio: No Turning Back — How One Audition Changed Everything',
+    category: 'Cover Story • Dune Rush Studio (Digital Issue 01)',
+    author: 'Dune Rush Studio Editorial (July 2026)',
+    readTime: '4 min read',
+    content: `
+      <p class="lead" style="font-size:1.15rem; color:var(--gold-light); margin-bottom:1.5rem; font-style:italic;">
+        "A major part of manifesting is believing you’re worthy of what you’re asking for. In an industry built on uncertainty, talent opens doors, but purpose is what keeps you walking through them."
+      </p>
+
+      <div style="background:rgba(212,175,55,0.08); border-left:4px solid var(--gold-primary); padding:1rem 1.25rem; margin-bottom:1.5rem; border-radius:0 8px 8px 0;">
+        <strong>Featured Cover Story:</strong> Dune Rush Studio Digital Issue 01 (July 2026)
+      </div>
+
+      <h3 style="font-family:var(--font-serif); font-size:1.3rem; color:#fff; margin-bottom:0.75rem;">From Stable Corporate Career to the Screen</h3>
+      <p style="margin-bottom:1.25rem;">
+        Upcoming full-time actor and voice artist Muthoo Raman has been pursuing acting professionally, building his craft through dedicated training with leading acting schools and casting directors across Dubai and internationally.
+      </p>
+      <p style="margin-bottom:1.25rem;">
+        With experience spanning Hollywood productions, independent short films, major regional commercials, and headline theatre plays, he continues to shape a career deeply rooted in discipline, continuous growth, and a genuine passion for storytelling.
+      </p>
+
+      <h3 style="font-family:var(--font-serif); font-size:1.3rem; color:#fff; margin-bottom:0.75rem;">Bold. Strong. Authentic.</h3>
+      <p style="margin-bottom:1.25rem;">
+        "Dreams don't disappear. Sometimes they simply wait for the moment you're ready to chase them. For Muthoo Raman, that moment arrived with a single audition and the decision to trust the inner calling that had been present since childhood."
+      </p>
+      <p style="margin-bottom:1.25rem;">
+        From premier theatrical runs including <em>This is Not A Tango</em>, <em>Gina Goes Down</em>, and <em>The Wedding Table</em> to cinematic leads in <em>Shared Sky</em> and <em>The Man Who Counted the Stars</em>, his journey demonstrates that unwavering purpose conquers any obstacle.
       </p>
     `
   }

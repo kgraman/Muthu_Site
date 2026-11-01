@@ -113,7 +113,7 @@
       <a href="#commercials" class="nav-link">Commercials & TVC</a>
       <a href="#theatre" class="nav-link">Theatre & Shorts</a>
       <a href="#credits" class="nav-link">Master Filmography</a>
-      <a href="#gallery" class="nav-link">Headshots Gallery</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
       <a href="#media-room" class="nav-link">Reels & Audio Room</a>
       <a href="#articles" class="nav-link">Press & Articles</a>
       <a href="#training" class="nav-link">Training & Stunts</a>
@@ -185,7 +185,7 @@
               🎬 Explore Credits
             </a>
             <a href="#gallery" class="btn btn-secondary">
-              📸 Headshot Gallery
+              📸 Gallery
             </a>
             <button class="btn btn-outline-gold open-comp-card-btn">
               📄 Casting Comp Card
@@ -404,6 +404,27 @@
         </div>
 
         <div class="credits-feature-grid">
+          <!-- Shared Sky Feature Film -->
+          <article class="credit-card" style="border-color:var(--gold-primary); box-shadow:0 0 25px rgba(212,175,55,0.15);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/shared_sky_poster.jpg" alt="Shared Sky Film Poster" style="width:100%; height:100%; object-fit:cover; object-position:center 20%;" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">Kikoman Films</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div class="credit-body" style="padding-top:1.25rem;">
+              <h3 class="credit-title">Shared Sky</h3>
+              <span class="credit-role-tag" style="color:var(--gold-primary); font-weight:700;">Starring: Muthu Raman (Co-Lead)</span>
+              <p class="credit-notes">
+                A Kikoman Films presentation written &amp; directed by Francis L.J. Gacer. Psychological drama starring Pamela Villadiego, Muthu Raman, and Ali Alhaibi, exploring intense interconnected lives beneath the city skyline.
+              </p>
+              <div class="credit-footer">
+                <span>Dir. Francis L.J. Gacer</span>
+                <span class="category-tag">Cinematic Feature</span>
+              </div>
+            </div>
+          </article>
+
           <!-- The Man Who Counted the Stars -->
           <article class="credit-card" style="border-color:var(--gold-primary); box-shadow:0 0 25px rgba(212,175,55,0.15);">
             <div class="credit-card-top">
@@ -633,46 +654,133 @@
         </div>
 
         <div class="stage-cards-grid">
-          <!-- This is Not A Tango -->
-          <article class="stage-card">
-            <span class="stage-genre-pill">Dark Comedy • Lead</span>
-            <h3 class="stage-title">This is Not A Tango</h3>
-            <div class="stage-role">Role: Lead Actor</div>
-            <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
-              Headline play at The Junction Xfest (2026). Portrayed an eccentric, razor-sharp protagonist navigating a surreal web of psychological deception and rhythmic tango tension.
-            </p>
-            <div class="stage-venue">
-              <span>📍 The Junction Xfest (2026)</span>
+          <!-- 1. Shared Sky (Kikoman Films) -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/shared_sky_poster.jpg" alt="Shared Sky Film Poster" style="width:100%; height:100%; object-fit:cover; object-position:center 20%; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">Kikoman Films</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.15);">Cinematic Feature • Starring Role</span>
+              <h3 class="stage-title">Shared Sky (2026)</h3>
+              <div class="stage-role">Role: Muthu Raman (Co-Lead / Principal Cast)</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                A Kikoman Films presentation written and directed by Francis L.J. Gacer. Starring alongside Pamela Villadiego and Ali Alhaibi in an evocative drama set against the UAE cityscape.
+              </p>
+              <div class="stage-venue">
+                <span>🎬 Kikoman Films • Dir. Francis L.J. Gacer</span>
+              </div>
             </div>
           </article>
 
-          <!-- Gina Goes Down -->
-          <article class="stage-card">
-            <span class="stage-genre-pill">Comedy • Lead</span>
-            <h3 class="stage-title">Gina Goes Down</h3>
-            <div class="stage-role">Role: Lead Actor</div>
-            <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
-              Premiered at the globally recognized Short & Sweet Theatre Festival (2026). Delivered lightning-fast dialogue, farce physical comedy, and spontaneous improvisation.
-            </p>
-            <div class="stage-venue">
-              <span>📍 Short & Sweet Festival (2026)</span>
+          <!-- 2. This is Not A Tango -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/theatre_this_is_not_a_tango_poster.jpg" alt="This is not a Tango Poster" style="width:100%; height:100%; object-fit:cover; object-position:center 15%; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">The Junction • Xfest</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill">Dark Comedy • Lead</span>
+              <h3 class="stage-title">This is Not A Tango</h3>
+              <div class="stage-role">Role: Lead Actor (w/ Natalia Vyugova)</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                Headline play at The Junction, Alserkal Avenue for Xfest DXB. Directed by Shamrock Nevis. Portrayed an eccentric, razor-sharp protagonist navigating a surreal web of psychological deception high above the city skyline.
+              </p>
+              <div class="stage-venue">
+                <span>📍 The Junction (Alserkal Avenue) • Dir. Shamrock Nevis</span>
+              </div>
             </div>
           </article>
 
-          <!-- The Wedding Table -->
-          <article class="stage-card">
-            <span class="stage-genre-pill">Intense Drama • Lead</span>
-            <h3 class="stage-title">The Wedding Table</h3>
-            <div class="stage-role">Role: Lead Actor</div>
-            <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
-              Emotional family drama staged at Short & Sweet (2026). Unpacked generational secrets and painful betrayals through a vulnerable, intense dramatic performance.
-            </p>
-            <div class="stage-venue">
-              <span>📍 Short & Sweet Festival (2026)</span>
+          <!-- 3. Gina Goes Down -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/theatre_gina_goes_down_poster.jpg" alt="Gina Goes Down Poster" style="width:100%; height:100%; object-fit:cover; object-position:center top; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">New Covent Garden</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill">Comedy • 4 Dynamic Roles</span>
+              <h3 class="stage-title">Gina Goes Down</h3>
+              <div class="stage-role">Role: Peter, Mark, Barry &amp; Glen (Muthoo Raman)</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                Written by Alex Broun, starring Nadine Ghoraieb and Muthoo Raman playing 4 distinct character transformations across one hilarious, rapid-fire night. Staged at The New Covent Garden, Dubai.
+              </p>
+              <div class="stage-venue">
+                <span>📍 The New Covent Garden, Dubai • Written by Alex Broun</span>
+              </div>
             </div>
           </article>
 
-          <!-- Short Film: HVAC -->
+          <!-- 4. The Wedding Table -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/theatre_wedding_table_poster.jpg" alt="The Wedding Table Poster" style="width:100%; height:100%; object-fit:cover; object-position:center 15%; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">Short+Sweet Festival</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill">Intense Drama • Principal Cast</span>
+              <h3 class="stage-title">The Wedding Table</h3>
+              <div class="stage-role">Role: Lead Actor (Muthoo Raman)</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                Premiered at the Short+Sweet Theatre Festival. Written &amp; directed by Thandolwethu Ntshebe, co-starring Marcus McGriff, Sreya Natarajan, and Thando Ntshebe at New Covent Garden Theatre MOE Dubai.
+              </p>
+              <div class="stage-venue">
+                <span>📍 Short+Sweet Festival • Dir. Thandolwethu Ntshebe</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Desert Monologues -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/theatre_desert_monologues_stage.jpg" alt="Desert Monologues Live Stage" style="width:100%; height:100%; object-fit:cover; object-position:center 25%; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">Courtyard Playhouse</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.15);">Solo Monologue • Live Showcase</span>
+              <h3 class="stage-title">Desert Monologues</h3>
+              <div class="stage-role">Role: Solo Dramatic Performance</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                Live stage showcase at The Courtyard Playhouse Theatre Academy (Dubai's original adult acting academy, Est. 2009). Delivered high-stakes monologue craft with commanding stage presence and emotional vulnerability under spotlight.
+              </p>
+              <div class="stage-venue">
+                <span>📍 The Courtyard Playhouse Theatre Academy, Dubai</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Dune Rush Studio Feature -->
+          <article class="stage-card" style="padding:0; overflow:hidden; border-color:rgba(212,175,55,0.4); box-shadow:0 0 25px rgba(212,175,55,0.12);">
+            <div style="width:100%; height:220px; overflow:hidden; position:relative; background:#07090e;">
+              <img src="assets/theatre_dune_rush_cover.jpg" alt="Dune Rush Studio Magazine Cover" style="width:100%; height:100%; object-fit:cover; object-position:center 15%; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+              <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(12,16,24,0.95) 100%);"></div>
+              <span class="credit-studio-badge" style="position:absolute; top:1rem; left:1rem; background:rgba(0,0,0,0.75); backdrop-filter:blur(4px); border-color:var(--gold-primary);">Dune Rush Studio</span>
+              <span class="credit-year" style="position:absolute; top:1.15rem; right:1rem; font-weight:700; color:#fff;">July 2026</span>
+            </div>
+            <div style="padding:1.5rem 1.75rem 1.75rem 1.75rem;">
+              <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.15);">Editorial Cover Story • Digital Issue 01</span>
+              <h3 class="stage-title">No Turning Back</h3>
+              <div class="stage-role">Spotlight: Muthoo Raman Career Journey</div>
+              <p style="color:var(--text-muted); font-size:0.9375rem; margin-bottom:1.25rem;">
+                Dune Rush Studio feature profiling Muthoo Raman's transition from corporate leadership into international screen and premier stage work. <em>"In an industry built on uncertainty, purpose is what keeps you walking through them."</em>
+              </p>
+              <div class="stage-venue">
+                <span>📰 Dune Rush Studio Digital Issue 01</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Short Film: HVAC -->
           <article class="stage-card">
             <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.1);">Short Film • Featured</span>
             <h3 class="stage-title">HVAC (2025)</h3>
@@ -685,7 +793,7 @@
             </div>
           </article>
 
-          <!-- Short Film: Shortcut -->
+          <!-- 8. Short Film: Shortcut -->
           <article class="stage-card">
             <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.1);">Short Film • Featured</span>
             <h3 class="stage-title">Shortcut (2025)</h3>
@@ -698,7 +806,7 @@
             </div>
           </article>
 
-          <!-- Short Film: Beneath The Skin -->
+          <!-- 9. Short Film: Beneath The Skin -->
           <article class="stage-card">
             <span class="stage-genre-pill" style="color:var(--gold-light); background:rgba(212,175,55,0.1);">Short Film • Featured</span>
             <h3 class="stage-title">Beneath The Skin (2024)</h3>
@@ -755,6 +863,13 @@
             </thead>
             <tbody id="creditsTableBody">
               <!-- Film & TV -->
+              <tr data-category="film">
+                <td><strong>2026</strong></td>
+                <td><strong style="color:var(--gold-light);">Shared Sky</strong></td>
+                <td><span style="color:var(--gold-primary); font-weight:700;">Co-Lead / Principal Cast</span></td>
+                <td>Francis L.J. Gacer / Kikoman Films</td>
+                <td><span class="category-tag">Feature Film</span></td>
+              </tr>
               <tr data-category="film">
                 <td><strong>Upcoming</strong></td>
                 <td><strong style="color:var(--gold-light);">The Man Who Counted the Stars</strong></td>
@@ -845,6 +960,13 @@
               <!-- Theatre -->
               <tr data-category="theatre">
                 <td><strong>2026</strong></td>
+                <td><strong style="color:var(--gold-light);">Desert Monologues</strong></td>
+                <td>Solo Dramatic Monologue</td>
+                <td>The Courtyard Playhouse Theatre Academy</td>
+                <td><span class="category-tag">Live Showcase</span></td>
+              </tr>
+              <tr data-category="theatre">
+                <td><strong>2026</strong></td>
                 <td><strong>This is Not A Tango</strong></td>
                 <td><span style="color:var(--gold-light); font-weight:700;">Lead Actor</span> (Dark Comedy)</td>
                 <td>The Junction Xfest</td>
@@ -908,6 +1030,7 @@
 
         <div class="gallery-filter-tabs">
           <button class="filter-btn gallery-filter-btn active" data-gallery-filter="all">All Photos</button>
+          <button class="filter-btn gallery-filter-btn" data-gallery-filter="headshot">Headshots</button>
           <button class="filter-btn gallery-filter-btn" data-gallery-filter="dramatic">Theatrical / Dramatic</button>
           <button class="filter-btn gallery-filter-btn" data-gallery-filter="corporate">Corporate & Commercial</button>
           <button class="filter-btn gallery-filter-btn" data-gallery-filter="casual">Contemporary Casual</button>
@@ -1051,7 +1174,32 @@
         </div>
 
         <div class="articles-grid">
-          <!-- Story 1: UAE Stories Feature -->
+                    <!-- Story 1: Gulf Prime Magazine Feature (October 2026 - Most Recent) -->
+          <article class="article-card" style="border-color:var(--gold-primary); box-shadow:0 0 25px rgba(212,175,55,0.18);">
+            <div class="article-banner">
+              <img src="assets/photo_1.jpg" alt="Muthoo Raman Gulf Prime Magazine Feature" />
+              <span class="article-badge" style="background:var(--gold-gradient); color:#0b0d13; font-weight:800;">Gulf Prime Magazine</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span>Oct 28, 2026</span> • <span>5 min read</span> • <span>By Nazma Khan</span>
+              </div>
+              <h3 class="article-title">Muthoo Raman: From Corporate Success to Pursuing His Hollywood Dreams</h3>
+              <p class="article-excerpt">
+                Featured on Gulf Prime Magazine: The inspiring story of Dubai-based actor Muthoo Raman, detailing his courageous transition from a 17-year corporate leadership career into major international blockbusters, Paramount features, and regional cinema.
+              </p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:1rem; border-top:1px solid var(--border-subtle); flex-wrap:wrap; gap:0.5rem;">
+                <button class="article-read-btn" data-article-id="gulfPrime">
+                  Read Full Story →
+                </button>
+                <a href="https://www.gulfprimemagazine.com/muthoo-raman-dubai-actor-hollywood/" target="_blank" rel="noopener noreferrer" style="font-size:0.8125rem; color:var(--gold-primary); text-decoration:underline;">
+                  Gulf Prime Magazine ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+<!-- Story 2: UAE Stories Feature (September 2026) -->
           <article class="article-card" style="border-color:var(--gold-primary); box-shadow:0 0 20px rgba(212,175,55,0.12);">
             <div class="article-banner">
               <img src="assets/photo_1.jpg" alt="Muthoo Raman UAE Stories Feature" />
@@ -1072,6 +1220,31 @@
                 <a href="https://uaestories.com/muthoo-raman-proves-it-is-never-too-late/" target="_blank" rel="noopener noreferrer" style="font-size:0.8125rem; color:var(--gold-primary); text-decoration:underline;">
                   UAE Stories ↗
                 </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 3: Dune Rush Studio Cover Feature (July 2026) -->
+          <article class="article-card" style="border-color:var(--gold-primary); box-shadow:0 0 25px rgba(212,175,55,0.18);">
+            <div class="article-banner" style="height:260px;">
+              <img src="assets/theatre_dune_rush_cover.jpg" alt="Dune Rush Studio Magazine Cover" style="object-position:center 15%;" />
+              <span class="article-badge" style="background:var(--gold-gradient); color:#0b0d13; font-weight:800;">Magazine Cover Story</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span>Dune Rush Studio • Digital Issue 01</span> • <span>July 2026</span>
+              </div>
+              <h3 class="article-title">No Turning Back: The Making of an Unstoppable Actor</h3>
+              <p class="article-excerpt">
+                "A major part of manifesting is believing you're worthy of what you're asking for." Dune Rush Studio profiles Muthoo Raman's transition from corporate leadership into international screen and stage acting.
+              </p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:1rem; border-top:1px solid var(--border-subtle); flex-wrap:wrap; gap:0.5rem;">
+                <button class="article-read-btn" data-article-id="duneRush">
+                  Read Full Cover Story →
+                </button>
+                <span style="font-size:0.8125rem; color:var(--gold-primary); font-weight:600;">
+                  Issue 01 Edition
+                </span>
               </div>
             </div>
           </article>
@@ -1618,6 +1791,7 @@
             Selected Production Highlights
           </h4>
           <ul style="font-size:0.875rem; color:var(--text-main); display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+            <li>• <strong>Shared Sky (2026)</strong> — Kikoman Feature (Co-Lead)</li>
             <li>• <strong>The Man Who Counted the Stars</strong> — Feature Lead (Kiko Man Films)</li>
             <li>• <strong>Jack Ryan: Ghost Wars (2026)</strong> — Paramount Feature (Maître D)</li>
             <li>• <strong>Americana Foods (2025 TVC)</strong> — Father (Main Lead)</li>
